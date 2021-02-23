@@ -1,0 +1,33 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  /* padding: 5rem 0; */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonLeft {
+  position: absolute;
+  width: 74px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+}
+
+.buttonRight {
+  position: absolute;
+  width: 166px;
+  height: 900px;
+  right: 0px;
+  top: 0px;
+}

@@ -1,0 +1,215 @@
+
+.controlIcon {
+    height: 100vh;
+    color: transparent !important;
+}
+
+.landingImage {
+    padding: 5px;
+    object-position: 0% 100%;
+    object-fit: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: calc(100vh + 50%);
+}
+
+.landingImage2 {
+    object-position: 100% 100%;
+    object-fit: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: calc(100vh + 50%) ;
+}
+
+.landingImage3 {
+    object-position: 100% 100%;
+    object-fit: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: calc(100vh + 50%) ;
+}
+.landingImage4 {
+    object-position: 100% 100%;
+    object-fit: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    height: calc(100vh + 50%) ;
+}
+
+.landingDesktop {
+    padding: 10px;
+    height: 99vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.carousel-control-next, .carousel-control-prev {
+    height: 100vh !important
+}
+
+.landingMobile, .landingDesktop, .landingTablet {
+    display: block;
+}
+/* Small devices (portrait tablets and large phones, 375px and up) */
+@media only screen and (max-width: 767px) {
+    .landingDesktop {
+        display: none;
+    }
+    .landingTablet {
+        display: none;
+    }
+    .landingMobile {
+        display: block;
+    }
+    .landingContent {
+        height: 50vh;
+        width: 100%;
+        padding-left: 24px;
+        padding-top: 30px;
+    }
+    .landingDate {
+        display: none;
+    }
+    .landingCrew {
+        display: none;
+    }
+    .landingTitle {
+        margin-top: 15vh
+    }
+    .landingImage3 {
+        object-position: 33% 0%;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 50vh ;
+    }
+    .landingImage2 {
+        padding: 5px;
+        object-position: 100% 100%;    
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 50vh ;
+    }
+    .landingImage4 {
+        padding: 5px;
+        object-position: 35% calc(-100px - 5vh);
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: calc(500px + 7vh) ;
+    }
+    .imgPlaceholder {
+        height: 325px
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .landingMobile {
+        display: none;
+    }
+    .landingDesktop {
+        display: none;
+    }
+    .landingTablet {
+        display: block;
+    }
+    .landingTitle {
+        margin-top: 15vh
+    }
+    .landingDate {
+        margin-top: 10vh
+    }
+    .landingCrew {
+        margin-top: 5vh
+    }
+    .landingContent {
+        padding-left: 24px;
+        padding-top: 30px;
+    }
+    
+    .landingImage2 {
+        padding: 5px;
+        object-position: 100% 100%;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh ;
+    }
+    .landingImage3 {
+        object-position: 50% 100%;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh ;
+    }
+  }       
+  /* Medium devices (landscape tablets, 1024px and up) */
+  @media only screen and (min-width: 1024px) {
+    .landingDesktop {
+        display: none;
+    }
+    .landingMobile {
+        display: none;
+    }
+    .landingTablet {
+        display: block;
+    }
+    .landingTitle {
+        margin-top: 20vh
+    }
+    .landingContent {
+        padding-left: 24px;
+        padding-top: 30px;
+    }
+    .landingImage2 {
+        padding: 5px;   
+        object-position: 90% 100%;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh ;
+    }
+    .landingImage3 {
+        object-position: 50% 100%;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh ;
+    }
+  }     
+  @media only screen and (min-width: 1440px) {
+    .landingTablet {
+        display: none;
+    }
+    .landingMobile {
+        display: none;
+    }
+    .landingDesktop {
+        display: block;
+    }
+    .landingContent {
+        padding-left: 80px;
+        padding-top: 30px;
+    }
+    .landingImage2 {
+        object-position: -85vw -5vw;
+        object-fit: cover;
+        overflow: hidden;
+        width: calc(100vw + 100%);
+        height: calc(100vh + 50%);
+    }
+    
+    .landingImage3 {
+        object-position: 50% 0%;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh ;
+    }
+  } 

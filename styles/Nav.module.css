@@ -1,0 +1,31 @@
+.nav {
+    position: absolute;
+    width: 61px;
+    height: 30px;
+    left: 87px;
+    top: 25px;
+}
+.navBar{
+    padding: 0 !important;
+    margin: 0;
+}
+
+@media only screen and (max-width: 375px) {
+    .nav {
+        position: absolute;
+        width: 61px;
+        height: 30px;
+        left: 29px;
+        top: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 1439px) {
+    .nav {
+        position: absolute;
+        width: 61px;
+        height: 30px;
+        left: 29px;
+        top: 31px;
+    }
+  } 
