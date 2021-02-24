@@ -1,0 +1,165 @@
+.list {
+    list-style-type: none;
+}
+.search{
+    margin-top: 10vh;
+}
+.footer1 {
+    position: absolute;
+    left: 87px;
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    bottom: 30px
+}
+.footer2 {
+    position: absolute;
+    left: 87px;
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    bottom: 30px
+}
+.footer3 {
+    position: absolute;
+    left: 87px;
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    bottom: 30px
+}
+.footer4 {
+    position: absolute;
+    left: 87px;
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    bottom: 30px
+}
+.footer {
+    position: absolute;
+    left: 87px;
+    font-size: 0.5rem;
+    line-height: 0.5rem;
+    bottom: 30px
+}
+.listContainer {
+    position: absolute;
+    width: 85px;
+    height: 21px;
+    left: 87px;
+    top: 169px;
+}
+.background {
+    background-image: url("../public/Assets/Images/Fontana_Opening_Lorenzo_Palmieri_062.jpg");
+    background-position: 20%; 
+    width: 100%;
+    height: 100vh;
+    background-size: 155% auto;
+    resize: both;
+}
+.background1 {
+    background-image: url("../public/Assets/Images/laibBlütenP.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100% auto;
+    resize: both;
+}
+.background2 {
+    background-image: url("../public/Assets/Images/ROH-Exhibitions9-1600x900.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100% auto;
+    resize: both;
+}
+.background3 {
+    background-image: url("../public/Assets/Images/AN_ACRYL_Detail 03.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100% auto;
+    resize: both;
+}
+.background4 {
+    background-image: url("../public/Assets/Images/SUR_SRW_Aman-dan-Gunung-1349x900.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: 100% auto;
+    resize: both;
+}
+
+@media only screen and (max-width: 767px) {
+    .background1 {
+        background-image: url("../public/Assets/Images/Fontana_Opening_Lorenzo_Palmieri_062.jpg");
+        background-position: 56% 15%; 
+        height: 100vh;
+        background-size: 500% auto;
+        resize: both;
+    }
+    
+    .footer4 {
+        display: none !important;
+    }
+    .footer3 {
+        display: none !important;
+    }
+    .footer2 {
+        display: none !important;
+    }
+    .footer1 {
+        display: none !important;
+    }
+    .footer {
+        display: none !important;
+    }
+    .listContainer {
+        position: absolute;
+        width: 85px;
+        height: 21px;
+        left: 29px;
+        top: 169px;
+    }
+    .nav {
+        position: absolute;
+        width: 61px;
+        height: 30px;
+        top: 30px;
+    }
+  }
+  
+  @media only screen and (max-width: 1439px) and (min-width: 768px){
+    
+    .footer4 {
+        display: none !important;
+    }
+    .footer3 {
+        display: none !important;
+    }
+    .footer2 {
+        left: 29px !important;
+    }
+    .footer1 {
+        left: 29px !important;
+    }
+    .footer {
+        left: 29px !important;
+    }
+    .background1 {
+        background-image: url("../public/Assets/Images/Fontana_Opening_Lorenzo_Palmieri_062.jpg");
+        background-position: 47% 30%; 
+        width: 100%;
+        height: 100vh;
+        background-size: 260% auto;
+        resize: both;
+    }
+    
+    .listContainer {
+        position: absolute;
+        width: 85px;
+        height: 21px;
+        left: 29px;
+        top: 169px;
+    }
+    .nav {
+        position: absolute;
+        width: 61px;
+        height: 30px;
+        left: 29px;
+        top: 31px;
+    }
+  } 

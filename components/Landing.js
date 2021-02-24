@@ -6,7 +6,7 @@ import styles from '../styles/Landing.module.css'
 
 const Landing = ({ children }) => {
     return (
-        <>
+        <div class={styles.landing}>
             <div className={styles.landingDesktop}>
                 <Carousel
                     indicators={false}
@@ -250,7 +250,7 @@ const Landing = ({ children }) => {
             </div>
 
             {/* Mobile Display */}
-            <div className={styles.landingMobile}>
+            <div className={styles.landingMobile, `vh-100`}>
                 <Carousel
                     indicators={false}
                     prevIcon={<span aria-hidden="true" className={styles.controlIcon} />}
@@ -275,7 +275,7 @@ const Landing = ({ children }) => {
                                 </div>
                             </Col>
                             <Col xs={12} md={7}>
-                                <div>
+                                <div className={styles.imageContainer}>
                                     <img
                                         className={styles.landingImage2}
                                         src="/Assets/Images/Apocalyptic Smile_Photo by Davy Linggar (2).JPG"
@@ -284,8 +284,8 @@ const Landing = ({ children }) => {
                             </Col>
                         </Row>
                     </Carousel.Item>
-                    <Carousel.Item className={styles.noDesktopDisplay}>
-                        <Row>
+                    <Carousel.Item>
+                        <Row >
                             <Col xs={12} md={5}>
                                 <div className={styles.landingContent}>
                                     <h5 className={styles.landingTitle}>
@@ -306,8 +306,8 @@ const Landing = ({ children }) => {
                                         </h5>
                                 </div>
                             </Col>
-                            <Col xs={12} md={7}>
-                                <div className={styles.imgPlaceholder}>
+                            <Col xs={12} md={7} >
+                                <div className={styles.imageContainer}>
                                     <img
                                         className={styles.landingImage4}
                                         src="/Assets/Images/ROH_WB19_Installation_05.jpg"
@@ -341,7 +341,7 @@ const Landing = ({ children }) => {
                                 </div>
                             </Col>
                             <Col xs={12} md={7}>
-                                <div>
+                                <div className={styles.imageContainer}>
                                     <img
                                         className={styles.landingImage3}
                                         src="/Assets/Images/Maria Taniguchi.jpg"
@@ -375,7 +375,7 @@ const Landing = ({ children }) => {
                                 </div>
                             </Col>
                             <Col xs={12} md={7}>
-                                <div>
+                                <div className={styles.imageContainer}>
                                     <img
                                         className={styles.landingImage}
                                         src="/Assets/Images/_DSC1575.jpg"
@@ -387,7 +387,7 @@ const Landing = ({ children }) => {
 
                 </Carousel>
             </div>
-        </>
+        </div>
     )
 }
 

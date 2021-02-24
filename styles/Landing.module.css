@@ -1,11 +1,17 @@
+.landing {
+    height: 99vh;
+    overflow: hidden;
+}
 
 .controlIcon {
     height: 100vh;
     color: transparent !important;
 }
-
+.landingContent {
+    padding-left: 31px;
+    padding-top: 169px;
+}
 .landingImage {
-    padding: 5px;
     object-position: 0% 100%;
     object-fit: cover;
     overflow-y: hidden;
@@ -47,6 +53,21 @@
     overflow-y: hidden;
     overflow-x: hidden;
 }
+.landingTablet {
+    padding: 10px;
+    height: 99vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.landingTablet {
+    padding: 10px;
+    height: 99vh;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 .carousel-control-next, .carousel-control-prev {
     height: 100vh !important
 }
@@ -65,11 +86,16 @@
     .landingMobile {
         display: block;
     }
+    .imageContainer{
+        margin-bottom: 100px;
+        overflow: hidden;
+        height: 55vh;
+    }
     .landingContent {
-        height: 50vh;
+        height: 45vh;
         width: 100%;
-        padding-left: 24px;
-        padding-top: 30px;
+        padding-left: 29px;
+        padding-top: 169px;
     }
     .landingDate {
         display: none;
@@ -77,15 +103,22 @@
     .landingCrew {
         display: none;
     }
-    .landingTitle {
-        margin-top: 15vh
+    .landingImage { 
+        padding: 2px;
+        zoom: 300%;
+        object-position: -200px -250px;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 55vh ;
     }
     .landingImage3 {
+        padding: 5px;
         object-position: 33% 0%;
         object-fit: cover;
         overflow: hidden;
         width: 100%;
-        height: 50vh ;
+        height: 55vh ;
     }
     .landingImage2 {
         padding: 5px;
@@ -93,15 +126,16 @@
         object-fit: cover;
         overflow: hidden;
         width: 100%;
-        height: 50vh ;
+        height: 55vh ;
     }
     .landingImage4 {
         padding: 5px;
-        object-position: 35% calc(-100px - 5vh);
+        zoom: 1.5;
+        object-position: 42% -90px;
         object-fit: cover;
         overflow: hidden;
         width: 100%;
-        height: calc(500px + 7vh) ;
+        height: 55vh ;
     }
     .imgPlaceholder {
         height: 325px
@@ -110,6 +144,9 @@
   
   /* Medium devices (landscape tablets, 768px and up) */
   @media only screen and (min-width: 768px) {
+    .imageContainer{
+        display: none;
+      }
     .landingMobile {
         display: none;
     }
@@ -119,18 +156,25 @@
     .landingTablet {
         display: block;
     }
-    .landingTitle {
-        margin-top: 15vh
-    }
     .landingDate {
         margin-top: 10vh
     }
     .landingCrew {
-        margin-top: 5vh
+        margin-top: 3vh
     }
     .landingContent {
-        padding-left: 24px;
-        padding-top: 30px;
+        width: 100%;
+        padding-left: 19px;
+        padding-top: 159px;
+    }
+    .landingImage {
+        zoom: 3;
+        object-position: -370px -450px;
+        /* object-position: -1100px -1300px; */
+        object-fit: cover;
+        overflow: hidden;
+        /* width: 3500px; */
+        height: 100vh ;
     }
     
     .landingImage2 {
@@ -148,6 +192,14 @@
         width: 100%;
         height: 100vh ;
     }
+    .landingImage4 {
+        zoom: 1.1;
+        object-position: 37% -50px;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh ;
+    }
   }       
   /* Medium devices (landscape tablets, 1024px and up) */
   @media only screen and (min-width: 1024px) {
@@ -160,12 +212,17 @@
     .landingTablet {
         display: block;
     }
-    .landingTitle {
-        margin-top: 20vh
+    .landingCrew {
+        margin-top: 3vh
     }
-    .landingContent {
-        padding-left: 24px;
-        padding-top: 30px;
+    .landingImage {
+        padding: 0px;   
+        zoom: 3;
+        object-position: -370px -450px;
+        object-fit: cover;
+        overflow: hidden;
+        /* width: 4000px; */
+        height: 100vh ;
     }
     .landingImage2 {
         padding: 5px;   
@@ -193,9 +250,13 @@
     .landingDesktop {
         display: block;
     }
+    .landingCrew {
+        margin-top: 3vh
+    }
     .landingContent {
-        padding-left: 80px;
-        padding-top: 30px;
+        width: 100%;
+        padding-left: 77px;
+        padding-top: 159px;
     }
     .landingImage2 {
         object-position: -85vw -5vw;
@@ -210,6 +271,22 @@
         object-fit: cover;
         overflow: hidden;
         width: 100%;
+        height: 100vh ;
+    }
+    .landingImage4 {
+        object-position: 50% 0%;
+        object-fit: cover;
+        overflow: hidden;
+        width: 100%;
+        height: 100vh ;
+    }
+    .landingImage {
+        padding: 0;
+        object-position: -420px -500px;
+        zoom:3.5;
+        object-fit: cover;
+        overflow: hidden;
+        /* width: 5000px; */
         height: 100vh ;
     }
   } 

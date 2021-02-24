@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Landing from '../components/Landing'
 
-export default function Home() {
+export default function Index() {
   return (
-    <div>
+    <div  >
       <Head>
         <title>R O H</title>
         <link rel="icon" href="/favicon.ico" />
