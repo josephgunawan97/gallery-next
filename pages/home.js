@@ -46,7 +46,7 @@ export default function Home() {
                 <title>R O H</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <div >
+            <div>
                 <div className={styles.listContainer}>
                     <div>
                         <h5 

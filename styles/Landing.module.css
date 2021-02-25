@@ -178,7 +178,6 @@
     }
     
     .landingImage2 {
-        padding: 5px;
         object-position: 100% 100%;
         object-fit: cover;
         overflow: hidden;
@@ -225,7 +224,6 @@
         height: 100vh ;
     }
     .landingImage2 {
-        padding: 5px;   
         object-position: 90% 100%;
         object-fit: cover;
         overflow: hidden;

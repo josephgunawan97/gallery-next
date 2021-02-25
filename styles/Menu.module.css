@@ -59,39 +59,143 @@
     width: 100%;
     height: 100vh;
     background-size: 100% auto;
+    background-position: 0% 75%; 
     resize: both;
 }
 .background2 {
     background-image: url("../public/Assets/Images/ROH-Exhibitions9-1600x900.jpg");
     width: 100%;
     height: 100vh;
-    background-size: 100% auto;
+    background-size: 120% auto;
+    background-position: 0% 75%; 
     resize: both;
 }
-.background3 {
+.background3::before {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    content: "";
     background-image: url("../public/Assets/Images/AN_ACRYL_Detail 03.jpg");
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-size: 100% auto;
+    z-index: -10;
+    top: 0;
+    left: 0;
     resize: both;
+    position: absolute;
 }
-.background4 {
+.background3 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
+}
+
+.background4::before {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    content: "";
     background-image: url("../public/Assets/Images/SUR_SRW_Aman-dan-Gunung-1349x900.jpg");
     width: 100%;
     height: 100vh;
-    background-size: 100% auto;
+    background-size: 200% auto;
+    background-position: 50% 45%;
+    background-repeat: no-repeat;
     resize: both;
+    z-index: -10;
+    top: 0;
+    left: 0;
+    resize: both;
+    position: absolute;
+}
+.background4 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 100vh;
 }
 
 @media only screen and (max-width: 767px) {
-    .background1 {
+    .background {
         background-image: url("../public/Assets/Images/Fontana_Opening_Lorenzo_Palmieri_062.jpg");
         background-position: 56% 15%; 
         height: 100vh;
         background-size: 500% auto;
         resize: both;
     }
+    .background1 {
+        background-image: url("../public/Assets/Images/laibBlütenP.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: 250% auto;
+        background-position: 70% 95%; 
+        resize: both;
+    }
+    .background2 {
+        /* background-color: #e6e6e4; */
+        background-image: url("../public/Assets/Images/ROH-Exhibitions9-1600x900.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: 330% auto;
+        background-position: 50% 80%; 
+        resize: both;
+    }
     
+    .background3::before {
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+        content: "";
+        background-repeat: no-repeat;
+        background-image: url("../public/Assets/Images/AN_ACRYL_Detail 03.jpg");
+        width: 100vw;
+        height: 100vh;
+        background-size: 270% auto;
+        background-position: 50% 50%;
+        z-index: -10;
+        top: 0;
+        left: 0;
+        resize: both;
+        position: absolute;
+    }
+    .background3 {
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        height: 100vh;
+    }
+    .background4::before {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        content: "";
+        background-image: url("../public/Assets/Images/SUR_SRW_Aman-dan-Gunung-1349x900.jpg");
+        width: 100%;
+        height: 100vh;
+        background-size: 450% auto;
+        background-position: 58%;
+        background-repeat: no-repeat;
+        resize: both;
+        z-index: -10;
+        top: 0;
+        left: 0;
+        resize: both;
+        position: absolute;
+    }
+    .background4 {
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        height: 100vh;
+    }
     .footer4 {
         display: none !important;
     }
@@ -139,7 +243,7 @@
     .footer {
         left: 29px !important;
     }
-    .background1 {
+    .background {
         background-image: url("../public/Assets/Images/Fontana_Opening_Lorenzo_Palmieri_062.jpg");
         background-position: 47% 30%; 
         width: 100%;
@@ -147,7 +251,50 @@
         background-size: 260% auto;
         resize: both;
     }
+    .background1 {
+        background-image: url("../public/Assets/Images/laibBlütenP.jpg");
+        width: 100%;
+        height: 100vh;
+        background-size: 150% auto;
+        background-position: 60% 70%; 
+        resize: both;
+    }
+    .background2 {
+        /* background-color: #e6e6e4; */
+        background-image: url("../public/Assets/Images/ROH-Exhibitions9-1600x900.jpg");
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 100vh;
+        background-size: 150% auto;
+        background-position: 30% 90%; 
+        resize: both;
+    }
     
+    .background4::before {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        content: "";
+        background-image: url("../public/Assets/Images/SUR_SRW_Aman-dan-Gunung-1349x900.jpg");
+        width: 100%;
+        height: 100vh;
+        background-size: 300% auto;
+        background-position: 55% 39%;
+        background-repeat: no-repeat;
+        resize: both;
+        z-index: -10;
+        top: 0;
+        left: 0;
+        resize: both;
+        position: absolute;
+    }
+    .background4 {
+        top: 0;
+        left: 0;
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        height: 100vh;
+    }
     .listContainer {
         position: absolute;
         width: 85px;
